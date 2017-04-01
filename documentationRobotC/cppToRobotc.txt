@@ -1,0 +1,27 @@
+Comands to be integrated:
+  forwards: bouth motors forward;
+  backwards: bouth motors backwards;
+  right: left motor forward; right motor backwards;
+  left: right motor forward; left motor backwards;
+  stop: right motor 0; left motor 0;
+
+Cpp comands that can be sent to nxt through binary:
+  forwards =>
+    F in ASCII 70 
+    Needs to be send as binary: 01000110
+  
+  backwards =>
+    B in ASCII 66 
+    Needs to be send as binary: 01000010
+  
+  right =>
+    R in ASCII 82 
+    Needs to be send as binary: 01010010
+  
+  left =>
+    L in ASCII 76 
+    Needs to be send as binary: 01001100
+    
+  Stop =>
+    S in ASCII 83 
+    Needs to be send as binary: 01010011
