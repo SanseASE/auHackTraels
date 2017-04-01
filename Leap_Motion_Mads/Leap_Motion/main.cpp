@@ -18,7 +18,7 @@ using namespace std;
 		toolControl tool;
 			
 		while (1) {
-
+			
 			frame  = controller.frame();
 
 			tool.inputFrame(frame);
